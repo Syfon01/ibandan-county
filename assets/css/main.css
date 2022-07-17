@@ -1,0 +1,45 @@
+.hero-img{
+  max-height:100vh;
+  object-fit: cover;
+    width: 100%;
+}
+.hero-box{
+  background-color: rgba(28, 40, 47, 0.4);
+  max-width: 50rem;
+  margin: auto;
+  padding: 2.5rem;
+  backdrop-filter: saturate(100%) blur(7px);
+}
+.carousel-caption{
+  bottom: 0;
+  padding-bottom: 0;
+
+}
+.tx-14{
+  font-size: 0.875rem;
+}
+.btn-primary{
+  background-color: #FBC109!important;
+  border: 0!important;
+}
+.tx-primary{
+  color: #FBC109!important;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a{
+  color: #FBC109!important;
+  border-bottom: 0!important;
+}
+.social a{
+  color: #FBC109!important;
+}
+.executive-img{
+  height: 350px;
+  object-fit: cover;
+    width: 100%;;
+}
+.event-img {
+  height: 250px;
+  object-fit: cover;
+    width: 100%;;
+}
