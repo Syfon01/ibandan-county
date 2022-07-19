@@ -493,10 +493,7 @@ section {
   font-weight: 600;
   font-size: 26px;
 }
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
+
 .about .content ul li {
   padding-bottom: 10px;
 }

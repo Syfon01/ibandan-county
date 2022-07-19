@@ -25,6 +25,9 @@
 .tx-primary{
   color: #FBC109!important;
 }
+.bg-primary{
+  background-color: #FBC109!important;
+}
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a{
   color: #FBC109!important;
@@ -43,4 +46,10 @@
   height: 250px;
   object-fit: cover;
     width: 100%;;
+}
+.about-logo{
+  width: 8rem;
+}
+.tx-12{
+  font-size: 0.85rem;
 }
