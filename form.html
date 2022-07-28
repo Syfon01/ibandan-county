@@ -56,6 +56,7 @@
                 </ul>
               </li>
               -->
+              <li><a class="" href="/contact.html">Contact</a></li>
               <li><a class="" href="/form.html">Become a member</a></li>
 
             </ul>
@@ -71,77 +72,83 @@
     <div class="breadcrumbs" data-aos="fade-in">
       <div class="container py-5">
         <img src="./assets/img/log.png" class="img-fluid about-logo" alt="">
-        <h2 class="mt-3">Club News and Events</h2>
+        <h2 class="mt-3">Membership Form</h2>
        
       </div>
     </div><!-- End Breadcrumbs -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126613.03555989653!2d3.7396981164062386!3d7.392236800000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d116b12b8ad%3A0x3a7f6e3ff04c4fc2!2sIbadan%20North%20West%20Local%20Government!5e0!3m2!1sen!2sng!4v1658663476587!5m2!1sen!2sng" style="border:0; width: 100%; height: 400px;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>NUP building,Onireke Agbarigo<br>
-                  Ibadan, Oyo State</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <!-- <p>info@example.com</p> -->
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+234 803 388 4251</p>
-              </div>
-
+<!-- FORM SETION  -->
+<section class="form">
+  <div class="container py-3">
+    <div class="col-md-8 mx-auto">
+      <div class="card card-body shadow p-5 border-0">
+        <form class="row g-3">
+          <div class="col-md-12">
+            <label class="tx-14 fw-medium" for="name">Name</label>
+            <input type="text" class="form-control" id="" placeholder="Your Name(Surname first)">
+          </div>
+          <div class="col-md-6">
+            <label class="tx-14 fw-medium" for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="abc@gmail.com">
+          </div>
+          <div class="col-md-6">
+            <label class="tx-14 fw-medium" for="inputPassword4" class="form-label">Age</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Add your age">
+          </div>
+          <div class="col-md-6">
+            <label class="tx-14 fw-medium" for="inputEmail4" class="form-label">Marital Status</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label class="tx-14 fw-medium" for="inputPassword4" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-md-6">
+            <label class="tx-14 fw-medium" for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Ibadan street">
+          </div>
+          <div class="col-md-6">
+            <label class="tx-14 fw-medium" for="" class="form-label">Religion</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Add your religion">
+          </div>
+          <div class="col-md-6">
+            <label class="tx-14 fw-medium" for="" class="form-label">Hobbies</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Add your hobbies">
+          </div>
+          <div class="col-md-6">
+            <label class="tx-14 fw-medium" for="" class="form-label">Will you make contribution for the Club?</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div class="col-md-12">
+            <label class="tx-14 fw-medium" for="inputCity" class="form-label">How did you get to know about the Club</label>
+            <textarea name="" id=""  class="form-control" rows="3"></textarea>
+          </div>
+         
+          <!-- <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="tx-14 fw-medium" class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
             </div>
-
+          </div> -->
+          <div class="col-12 mt-4">
+            <button type="submit" class="btn btn-primary px-4">Submit</button>
           </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
+        </form>
       </div>
-    </section><!-- End Contact Section -->
-
+    </div>
+    
+  </div>
+</section>
+   
   </main><!-- End #main -->
 
  <!-- ======= Footer ======= -->
