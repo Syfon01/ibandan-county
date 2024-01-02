@@ -1,55 +1,125 @@
-.hero-img{
-  max-height:100vh;
+.hero-img {
+  max-height: 100vh;
   object-fit: cover;
-    width: 100%;
+  width: 100%;
 }
-.hero-box{
+.hero-box {
   background-color: rgba(28, 40, 47, 0.4);
   max-width: 50rem;
   margin: auto;
   padding: 2.5rem;
   backdrop-filter: saturate(100%) blur(7px);
 }
-.carousel-caption{
+.carousel-caption {
   bottom: 0;
   padding-bottom: 0;
-
 }
-.tx-14{
+.tx-14 {
   font-size: 0.875rem;
 }
-.btn-primary{
-  background-color: #FBC109!important;
-  border: 0!important;
+.btn-primary {
+  background-color: #fbc109 !important;
+  border: 0 !important;
 }
-.tx-primary{
-  color: #FBC109!important;
+.tx-primary {
+  color: #fbc109 !important;
 }
-.bg-primary{
-  background-color: #FBC109!important;
+.bg-primary {
+  background-color: #fbc109 !important;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a{
-  color: #FBC109!important;
-  border-bottom: 0!important;
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: #fbc109 !important;
+  border-bottom: 0 !important;
 }
-.social a{
-  color: #FBC109!important;
+.social a {
+  color: #fbc109 !important;
   margin: 5px;
 }
-.executive-img{
+.executive-img {
   height: 350px;
   object-fit: cover;
-    width: 100%;;
+  width: 100%;
 }
 .event-img {
   height: 250px;
   object-fit: cover;
-    width: 100%;;
+  width: 100%;
 }
-.about-logo{
+.about-logo {
   width: 8rem;
 }
-.tx-12{
+.tx-12 {
   font-size: 0.85rem;
+}
+
+.my-card-height {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-position: center;
+  width: 100%;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.zoom-img {
+  transition: all 1s ease;
+}
+.zoom-img:hover {
+  transform: scale(1.2);
+}
+.my-zoom {
+  overflow: hidden !important;
+}
+.card-index {
+  z-index: 999;
+}
+
+.min-scroll {
+  max-height: 27rem;
+  overflow-y: scroll;
+}
+
+.min-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.min-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.min-scroll::-webkit-scrollbar-thumb {
+  background: #fdb813;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.min-scroll::-webkit-scrollbar-thumb:hover {
+  background: #e1a009;
+}
+
+.bg-side-member {
+  background-image: url("../img/president.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 45rem;
+}
+
+/* background images  */
+.president {
+  background-image: url("../img/president.jpeg");
+}
+.VP {
+  background-image: url("../img/VP.jpeg");
+}
+.sec {
+  background-image: url("../img/secretary.jpeg");
 }
